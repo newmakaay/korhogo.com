@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+
+
+.banniere
+{
+height: 200px;
+background: no-repeat center center / cover url("img/banniere1.jpg");
+
+}
+body {
+font-size: 16px;
+color: rgba(0, 0, 0, 0.87);
+font-family:Arial, Helvetica, sans-serif;
+line-height: 1.4;
+letter-spacing: normal;
+text-align: justify;
+margin: 0; 
+font-weight: 500;
+}
+ .nav-title h2 , h3
+{
+text-align: center;
+}
+ .topbar nav 
+ {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.topbar nav a
+{
+   text-decoration: none;
+}
+.topbar nav a:hover
+{
+  color: black;
+} 
+
+.main
+ {
+ padding: 10px;
+ background: white;
+ 
+ box-shadow: 0 4px 30px white;
+ position: relative;
+z-index: 2;
+ }
+ 
+
+ 
+ .article 
+ {
+  overflow: hidden;
+  margin: 30px 0;
+ }
+
+ .article img
+ {
+float: left;
+margin-right: 10px;
+
+ }
+ 
+.footer
+ {
+  clear: both;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(232, 11, 11);
+ }
+
+ .marquee  
+ {
+  border-radius: 25px;
+  background-color: red;
+ }
+
+ 
+ 
